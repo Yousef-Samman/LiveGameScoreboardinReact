@@ -22,7 +22,8 @@ body {
   font-size: 1.8rem;
 }
 
-.loading, .error {
+.loading,
+.error {
   text-align: center;
   padding: 40px;
   font-size: 1.2rem;
@@ -32,6 +33,7 @@ body {
 .error {
   color: #d32f2f;
 }
+
 .game-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
